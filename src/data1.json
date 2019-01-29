@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Bastian Schweinsteiger",
+        "image": "http://mediadb.kicker.de/2009/fussball/spieler/xl/27701_14.jpg",
+        "clicked": false
+    },
+    {
+        "id": 2,
+        "name": "Eden Hazard",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b5/Eden_Hazard_2018_%28cropped%29.jpg/200px-Eden_Hazard_2018_%28cropped%29.jpg",
+        "clicked": false
+    },
+    {
+        "id": 3,
+        "name": "Christiano Ronaldo",
+        "image": "http://www.gstatic.com/tv/thumb/persons/673351/673351_v9_ba.jpg",
+        "clicked": false
+    },
+    {
+        "id": 4,
+        "name": "Lionel Messi",
+        "image": "http://www.gstatic.com/tv/thumb/persons/983712/983712_v9_ba.jpg",
+        "clicked": false
+    },
+    {
+        "id": 5,
+        "name": "Joshua Kimmich",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Joshua_Kimmich_850_0717.jpg/1200px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Joshua_Kimmich_850_0717.jpg",
+        "clicked": false
+    },
+    {
+        "id": 6,
+        "name": "Jadon Sancho",
+        "image": "https://playerswiki.com/uploads/thumb/jadon-sancho-300-300.jpeg",
+        "clicked": false
+    },
+    {
+        "id": 7,
+        "name": "Manuel Neuer",
+        "image": "http://www.gstatic.com/tv/thumb/persons/1162613/1162613_v9_ba.jpg",
+        "clicked": false
+    },
+    {
+        "id": 8,
+        "name": "Leroy Sane",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/20180602_FIFA_Friendly_Match_Austria_vs._Germany_Leroy_San%C3%A9_850_0668.jpg/1200px-20180602_FIFA_Friendly_Match_Austria_vs._Germany_Leroy_San%C3%A9_850_0668.jpg",
+        "clicked": false
+    },
+    {
+        "id": 9,
+        "name": "Niklas Sule",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT59HiJvb-OCAeKk61k8nQIuuHB90Br9-kPOzoUkC6iXNOiFGTJ",
+        "clicked": false
+    }
+]
