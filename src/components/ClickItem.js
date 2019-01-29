@@ -4,7 +4,7 @@ const ClickItem = (props) => {
     return (
         <div 
         onClick = {() => props.handleClick(props.id)} 
-        style={{ backgroundImage: `url("${props.image}")` }}
+        style={{ backgroundImage: `url("${props.image}")`}}
         />
     )
 }

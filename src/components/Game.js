@@ -2,20 +2,22 @@ import React, { Component } from "react";
 import Header from "./Header";
 import Container from "./Container";
 import ClickItem from "./ClickItem";
-import data from "../data1.json";
+import players from "../players.json";
 
 class Game extends Component {
 
     state = {
-        data,
+        data : [],
         score: 0,
         topScore: 0
     };
 
     componentDidMount() {
-        this.setState({ data: this.shuffleData(this.state.data) })
-        console.log(data);
-        console.log(typeof data)
+        this.setState({ data: this.shuffleData(players) },() => {
+            console.log(this.state.data);
+            console.log(typeof this.state.data);
+        })
+       
     };
 
     handleCorrectGuess = (newData) => {
@@ -40,7 +42,7 @@ class Game extends Component {
     resetData = (data) => {
         // mapping through the array and resetting all items to false
         const resetData = data.map(item => ({ ...item, clicked: false }));
-
+         console.log("reset",resetData)
         return this.shuffleData(resetData)
     };
 
@@ -53,6 +55,7 @@ class Game extends Component {
             data[i] = data[j];
             data[j] = temp;
         }
+        return data;
     };
 
     handleItemClick = (id) => {
@@ -72,6 +75,7 @@ class Game extends Component {
     };
 
     render() {
+        var dataArray = this.state.data ;
         return (
             <div>
                 <Header
@@ -79,7 +83,7 @@ class Game extends Component {
                     topScore={this.state.topScore}
                 />
                 <Container>
-                    {this.state.data.map(item => (
+                    {dataArray.map((item) => (
                         <ClickItem
                             key={item.id}
                             id={item.id}
